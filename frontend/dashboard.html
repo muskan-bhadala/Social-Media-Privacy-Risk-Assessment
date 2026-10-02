@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Dashboard</title><link rel="stylesheet" href="/css/style.css"></head><body><header><b>Privacy Risk Framework</b><a href="/">Home</a><a href="/assessment.html">Assessment</a><a href="/dashboard.html">Dashboard</a></header><main>
+<h1>Privacy dashboard</h1><div class="note">Aggregate view of 1,000 fictional (synthetic) profiles plus assessments run on this server.</div>
+<div class="grid" id="cards"></div><p><a class="btn" href="/assessment.html">Start Privacy Assessment</a></p>
+<div class="chart"><h3>Average category risk (higher = more exposure)</h3><canvas id="c1" height="140"></canvas></div>
+<div class="chart"><h3>Risk level distribution</h3><canvas id="c2" height="120"></canvas></div>
+<div class="chart"><h3>Top privacy weaknesses (% of profiles)</h3><canvas id="c3" height="140"></canvas></div>
+<div class="chart"><h3>Account security controls in place (%)</h3><canvas id="c4" height="120"></canvas></div>
+</main><script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script><script src="/js/common.js"></script><script src="/js/dashboard.js"></script></body></html>
